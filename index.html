@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>ShopFree.com.my: Best Online Shopping in Malaysia</title>
+  <!-- font awesome cdn -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+  <!-- custom css file link -->
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" href="favicon.ico">
+</head>
+
+<body>
+
+  <!-- header  -->
+  <header>
+    <div class="container">
+      <!-- navbar -->
+      <nav class="navbar">
+        <a href="index.html" class="navbar-brand">Shop<span class="span-topnav-header">Free❤️</span></a>
+        <button type="button" class="navbar-toggler">
+          <i class="fas fa-bars"></i>
+        </button>
+        <div class="navbar-collapse">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+          </ul>
+        </div>
+
+        <div class="cart">
+          <button type="button" id="cart-btn">
+            <i class="fas fa-shopping-cart"></i>
+            <span id="cart-count-info"></span>
+          </button>
+
+          <div class="cart-container">
+            <div class="cart-list">
+            </div>
+
+            <div class="cart-total">
+              <h3>Total: $</h3>
+              <span id="cart-total-value"></span>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <br><br><br><br><br><br>
+      <!-- end of navbar -->
+
+      <!-- Slideshow -->
+
+      <div class="carousel">
+        <button class="carousel_button carousel-button--left is-hidden">
+          <img src="images/left-arrow.svg" alt="">
+        </button>
+        <div class="carousel_track-container">
+          <ul class="carousel_track">
+            <li class="carousel_slide current-slide">
+              <img class="carousel_image" src="images/apple-product2.jpg" />
+            </li>
+            <li class="carousel_slide">
+              <img class="carousel_image" src="images/apple-product4.jpg" />
+            </li>
+            <li class="carousel_slide">
+              <img class="carousel_image" src="images/apple-product3.jpg" />
+            </li>
+          </ul>
+        </div>
+
+        <button class="carousel_button carousel-button--right">
+          <img src="images/right-arrow.svg" alt="">
+        </button>
+
+        <div class="carousel_nav">
+          <button class="carousel_indicator current-slide"></button>
+          <button class="carousel_indicator"></button>
+          <button class="carousel_indicator"></button>
+        </div>
+      </div>
+      <!-- end of Slideshow -->
+
+    </div>
+  </header>
+  <!-- end of header -->
+
+<!-- products section  -->
+  <section class="products">
+    <div class="container">
+      <h2>FIND THE RIGHT GADGET FOR YOU</h2>
+      <div class="product-list">
+      </div>
+    </div>
+  </section>
+  <!-- end of products section -->
+
+  <!-- footer-->
+  <footer>
+    <div class="container-footer">
+      <p>© Copyright Athirah Foad 2022</p>
+    </div>
+  </footer>
+  <!-- end of footer section -->
+
+  <script src="index.js" charset="utf-8"></script>
+  <script src="product.json"></script>
+
+
+</body>
+
+</html>

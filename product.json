@@ -1,0 +1,50 @@
+[
+    {
+        "name" : "Apple Watch 6",
+        "category" : "Apple",
+        "price" : "1800",
+        "imgSrc" : "images/AppleWatch6.png"
+    },
+    {
+        "name" : "iPhone 13",
+        "category" : "Apple",
+        "price" : "5000",
+        "imgSrc" : "images/iPhone13.png"
+    },
+    {
+        "name" : "iPad Mini 6",
+        "category" : "Apple",
+        "price" : "2000",
+        "imgSrc" : "images/iPadMini6.png"
+    },
+    {
+        "name" : "Macbook Pro",
+        "category" : "Apple",
+        "price" : "8000",
+        "imgSrc" : "images/macbookPro.png"
+    },
+    {
+        "name" : "Switch",
+        "category" : "Nintendo",
+        "price" : "2000",
+        "imgSrc" : "images/switch.png"
+    },
+    {
+        "name" : "Amazon Echo",
+        "category" : "Amazon",
+        "price" : "2500",
+        "imgSrc" : "images/amazon.png"
+    },
+    {
+        "name" : "Airpods Pro",
+        "category" : "Apple",
+        "price" : "1000",
+        "imgSrc" : "images/airpodsPro.png"
+    },
+    {
+        "name" : "Beats Studio",
+        "category" : "Beats",
+        "price" : "1500",
+        "imgSrc" : "images/beatsstudio.png"
+    }
+]
